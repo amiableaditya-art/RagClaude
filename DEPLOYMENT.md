@@ -12,11 +12,11 @@ Checklists for the two deployment deliverables: a GitHub-ready repository and a 
 | `.gitignore` excludes `.env`, `.streamlit/secrets.toml`, virtual environments, and caches | Done |
 | No API keys, passwords, or tokens in any file | Done (scanned) |
 | No `.env` or `secrets.toml` in the repository | Done |
-| README with run and deploy instructions | Done, but it predates the filter, dashboard, and evaluation features |
-| Working tree clean | Done at the time of the first commit |
-| Code pushed to GitHub | **Pending.** GitHub sign-in is required on this machine |
+| README with run and deploy instructions | Done, and updated for the filter, dashboard, and evaluation features |
+| Working tree clean | Done |
+| Code pushed to GitHub | Done; the `main` branch is on the remote |
 
-### Push to GitHub
+### Push to GitHub (reference)
 
 1. Create a GitHub personal access token with `repo` scope (classic), or Contents read/write for the repository (fine-grained).
 2. Run `git push -u origin main`. Enter your GitHub username when asked, and paste the token as the password.
@@ -32,9 +32,10 @@ Checklists for the two deployment deliverables: a GitHub-ready repository and a 
 | API key read from `ANTHROPIC_API_KEY`, then `st.secrets` | Done; tested with the key set only in secrets |
 | No local file paths | Done; the bundled evaluation dataset is located relative to `app.py` |
 | No database or local storage | Done; all state lives in the session |
-| PDF and TXT upload | Done in local tests; not yet run on Cloud |
-| Claude model name confirmed working | **Not confirmed.** See below |
-| Deployed and tested on Cloud | **Pending** |
+| PDF and TXT upload | Done in local tests. Not separately recorded on Cloud |
+| Claude model name (`claude-sonnet-5-5`) | The owner reported the deployed app working; no model-error check was recorded |
+| Deployed to Cloud | Done; the app is public and the owner reported it working |
+| Cloud test results captured | **Pending.** Specific questions and answers were not recorded |
 
 ### Deploy to Streamlit Community Cloud
 
@@ -50,10 +51,9 @@ Checklists for the two deployment deliverables: a GitHub-ready repository and a 
 
 ## 3. Open Issues Before Release
 
-1. **Claude model name.** `CLAUDE_MODEL` in `app.py` is `claude-sonnet-5-5`. It has not been tested with a real call, because the key on the development machine was rejected. If questions fail with a model error, check the model name against Anthropic's current model list.
-2. **Real-model behavior untested.** Grounding and the exact fallback sentence have only been checked against a stand-in for Claude. Ask one answerable and one unrelated question with a valid key.
-3. **Pinned versions.** They are the versions tested on Python 3.14. If the Cloud build fails to install them, set the app's Python version to 3.12 or 3.13 under **Advanced settings**.
-4. **Documentation drift.** `README.md` and `QA_validation_report.md` describe the earlier version of the app and need updating.
+1. **Cloud results not captured.** Grounding and the exact fallback sentence are reported working on the deployed app, but the answers were not recorded. Record one answerable question with its sources, one unrelated question with its exact reply, and the evaluation table, then update `QA_validation_report.md`.
+2. **Claude model name.** `CLAUDE_MODEL` in `app.py` is `claude-sonnet-5-5`. If questions ever fail with a model error, check the name against Anthropic's current model list.
+3. **Pinned versions.** They were tested locally on Python 3.14. The Cloud build succeeded, but the Python version it used was not recorded.
 
 ## 4. Security Reminders
 

@@ -1,0 +1,46 @@
+[
+  {
+    "question": "How quickly must a critical deviation be reported to QA?",
+    "expected_answer": "Within 24 hours of discovery."
+  },
+  {
+    "question": "When must a CAPA plan be approved and when is its effectiveness checked?",
+    "expected_answer": "QA approves the CAPA plan within 10 business days, and effectiveness is checked 90 days after implementation."
+  },
+  {
+    "question": "How soon must a Class I recall be initiated and the regulatory authority notified?",
+    "expected_answer": "A Class I recall is initiated within 24 hours of the decision, and the regulatory authority is notified within 24 hours."
+  },
+  {
+    "question": "What must happen before a batch can be released?",
+    "expected_answer": "The QA Head must review the batch record, confirm deviations are closed or assessed and QC results meet specification, and sign the release."
+  },
+  {
+    "question": "What is required before a major change is implemented?",
+    "expected_answer": "QA approval and a regulatory impact assessment."
+  },
+  {
+    "question": "How long are training records retained?",
+    "expected_answer": "At least 5 years after the employee leaves the company."
+  },
+  {
+    "question": "What is the timeline for investigating a product complaint?",
+    "expected_answer": "The investigation must be completed within 30 calendar days."
+  },
+  {
+    "question": "How often are critical suppliers audited?",
+    "expected_answer": "Every 2 years."
+  },
+  {
+    "question": "What must be done after a cold chain excursion outside 2 to 8 degrees Celsius?",
+    "expected_answer": "Quarantine the product immediately, notify QA within 4 hours, and QA decides disposition within 3 business days."
+  },
+  {
+    "question": "What are the escalation timelines for critical quality issues?",
+    "expected_answer": "To the QA Head within 24 hours and to the Site Head within 48 hours."
+  },
+  {
+    "question": "What is on the cafeteria menu today?",
+    "expected_answer": "I could not find enough information in the uploaded document."
+  }
+]

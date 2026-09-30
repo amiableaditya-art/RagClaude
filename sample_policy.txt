@@ -1,0 +1,33 @@
+HelixNova Pharma - Quality Policy Summary (SAMPLE / ILLUSTRATIVE ONLY)
+
+This sample document is fictional. It exists so the evaluation dataset can be run against known content. It is not a real HelixNova policy.
+
+1. Critical Deviation Reporting
+Any critical deviation must be reported to Quality Assurance within 24 hours of discovery. The employee who discovers the deviation reports it in the quality system and informs their supervisor immediately. QA classifies the deviation as minor, major or critical within 2 business days of the report.
+
+2. CAPA (Corrective and Preventive Action)
+A CAPA must be opened for every critical deviation and every confirmed root cause. The CAPA plan must be approved by QA within 10 business days of opening. An effectiveness check is performed 90 days after the CAPA is implemented.
+
+3. Product Recalls
+A Class I recall must be initiated within 24 hours of the recall decision. The relevant regulatory authority is notified within 24 hours of the decision. A mock recall exercise is conducted once every year to test recall readiness.
+
+4. Batch Release
+A batch may be released only after the QA Head has reviewed the completed batch record and confirmed that all deviations are closed or assessed and that all QC test results meet specification. No batch is shipped without a documented QA Head signature.
+
+5. Change Control
+Every change to a process, equipment, material or document must be raised as a change request. A major change requires QA approval and a regulatory impact assessment before it is implemented. Change requests are reviewed within 10 business days.
+
+6. Training Records
+Personnel must complete training on an SOP before performing any task described in it. Every employee completes an annual GMP refresher. Training records are retained for at least 5 years after the employee leaves the company.
+
+7. Complaints
+A product complaint is acknowledged within 2 business days of receipt. The investigation must be completed within 30 calendar days. A complaint that suggests possible patient harm is escalated to QA within 24 hours.
+
+8. Supplier Quality
+Only suppliers on the Approved Supplier List may supply materials for GMP use. Critical suppliers are audited every 2 years. A supplier that fails an audit is placed on hold until corrective actions are accepted by QA.
+
+9. Cold Chain Excursions
+If a temperature-controlled product is exposed to conditions outside 2 to 8 degrees Celsius, it must be quarantined immediately. QA must be notified within 4 hours of the excursion being detected. QA decides on disposition within 3 business days, based on stability data.
+
+10. Escalation Timelines
+Critical quality issues are escalated to the QA Head within 24 hours and to the Site Head within 48 hours. Major issues are escalated to the QA Manager within 3 business days. Minor issues are documented and reviewed in the monthly quality meeting.

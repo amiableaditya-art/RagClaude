@@ -57,7 +57,7 @@ Settings are constants at the top of `app.py`: `CLAUDE_MODEL`, `EMBEDDING_MODEL`
 
 ## Deploy to Streamlit Community Cloud
 
-See `DEPLOYMENT.md` for the full checklist. In short:
+See `DEPLOYMENT.md` for the full steps and `Streamlit_Cloud_Ready_Checklist.md` for status. In short:
 
 1. Push this repository to GitHub. Make sure no keys are committed.
 2. On Streamlit Community Cloud, create a new app that points to `app.py`.
@@ -75,8 +75,11 @@ See `DEPLOYMENT.md` for the full checklist. In short:
 | `requirements.md` | Business requirements |
 | `specification.md` | Architecture and workflow |
 | `CLAUDE.md` | Development rules |
-| `QA_validation_report.md` | QA results |
-| `DEPLOYMENT.md` | GitHub and Streamlit Cloud checklists |
+| `QA_Report.md` | QA results |
+| `GitHub_Ready_Checklist.md` | Repository readiness checklist |
+| `Streamlit_Cloud_Ready_Checklist.md` | Cloud deployment readiness checklist |
+| `DEPLOYMENT.md` | Push and deploy steps |
+| `.streamlit/secrets.toml.example` | Template for local secrets (no real key) |
 
 ## Limitations
 

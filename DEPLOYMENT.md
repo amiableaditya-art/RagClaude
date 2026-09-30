@@ -50,7 +50,7 @@ Checklists for the two deployment deliverables: a GitHub-ready repository and a 
 
 ## 3. Open Issues Before Release
 
-1. **Claude model name.** `CLAUDE_MODEL` in `app.py` is `claude-3-5-sonnet-latest`. That model may be retired, and it could not be tested because the key on the development machine was rejected. If questions fail with a model error, change the constant to a current model such as `claude-sonnet-5-5`.
+1. **Claude model name.** `CLAUDE_MODEL` in `app.py` is `claude-sonnet-5-5`. It has not been tested with a real call, because the key on the development machine was rejected. If questions fail with a model error, check the model name against Anthropic's current model list.
 2. **Real-model behavior untested.** Grounding and the exact fallback sentence have only been checked against a stand-in for Claude. Ask one answerable and one unrelated question with a valid key.
 3. **Pinned versions.** They are the versions tested on Python 3.14. If the Cloud build fails to install them, set the app's Python version to 3.12 or 3.13 under **Advanced settings**.
 4. **Documentation drift.** `README.md` and `QA_validation_report.md` describe the earlier version of the app and need updating.

@@ -13,7 +13,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("helixnova")
 
 # ---------- Configuration ----------
-CLAUDE_MODEL = "claude-3-5-sonnet-latest"
+CLAUDE_MODEL = "claude-sonnet-5-5"
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 CHUNK_SIZE = 800
 CHUNK_OVERLAP = 100

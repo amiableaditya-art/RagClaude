@@ -51,7 +51,7 @@ A live run with the machine's `ANTHROPIC_API_KEY` returned 401 `invalid x-api-ke
 
 ## Risks to check
 
-- **Model name:** `claude-3-5-sonnet-latest` may be retired. If the first real call fails with a model error, change the `CLAUDE_MODEL` constant at the top of `app.py`.
+- **Model name:** `app.py` now uses `claude-sonnet-5-5` (changed from `claude-3-5-sonnet-latest` after the tests above, which ran against a stand-in). It has not been tested with a real call. If the first real call fails with a model error, check the `CLAUDE_MODEL` constant at the top of `app.py`.
 - **Slow first start:** importing `sentence-transformers` took about 90 seconds on the test machine, and the first Cloud start will be slow as well.
 - **Pins on Cloud:** the pinned versions were tested on Python 3.14. If the Cloud build fails, set the app's Python version to 3.12 or 3.13.
 - **Errors in chat history:** API error messages are stored as assistant messages in the history. This is cosmetic.
